@@ -1,6 +1,6 @@
 {
   "name": "ledger-bitcoin",
-  "version": "0.0.1-prueba16",
+  "version": "0.0.1-prueba17",
   "description": "Ledger Hardware Wallet Bitcoin Application Client",
   "main": "index.js",
   "publishConfig": {
@@ -11,13 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/Lattice-Trade/membrane-app-bitcoin-new.git"
   },
-  "bugs": {
-    "url": "https://github.com/Lattice-Trade/membrane-app-bitcoin-new/issues"
-  },
-  "homepage": "https://github.com/Lattice-Trade/membrane-app-bitcoin-new#readme",
-  "pre-commit": [
-    "lint:fix"
-  ],
   "license": "Apache-2.0",
   "keywords": [
     "Ledger",
@@ -73,6 +66,7 @@
     "typescript": "^4.5.5"
   },
   "files": [
+    "build/main",
     "!**/*.spec.*",
     "!**/*.test.*",
     "!**/*.json",
