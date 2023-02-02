@@ -1,5 +1,5 @@
 {
-  "name": "ledger-bitcoin",
+  "name": "membrane-app-bitcoin-new",
   "version": "0.0.1-prueba19",
   "description": "Ledger Hardware Wallet Bitcoin Application Client",
   "main": "dist/index.js",
