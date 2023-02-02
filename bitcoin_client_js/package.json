@@ -1,6 +1,6 @@
 {
   "name": "ledger-bitcoin",
-  "version": "0.0.1-prueba16",
+  "version": "0.0.1-prueba17",
   "description": "Ledger Hardware Wallet Bitcoin Application Client",
   "main": "index.js",
   "publishConfig": {
