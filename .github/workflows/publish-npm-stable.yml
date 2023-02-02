@@ -18,7 +18,8 @@ jobs:
   clean-up:
     name: Clean up
     needs: publish
-    uses: Lattice-Trade/membrane-github-template-actions/.github/workflows/npm-cleanup-packages.v1.yml@main
+    uses: Lattice-Trade/membrane-github-template-actions/.github/workflows/npm-cleanup-packages.v1.yml@feature/{LM-9718}-allow-set-workdir-in-release
     with:
       USE_PAT: true
+      WORKING_DIR: bitcoin_client_js
     secrets: inherit
