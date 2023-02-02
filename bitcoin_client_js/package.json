@@ -1,10 +1,16 @@
 {
   "name": "ledger-bitcoin",
-  "version": "0.0.1-prueba18",
+  "version": "0.0.1-prueba19",
   "description": "Ledger Hardware Wallet Bitcoin Application Client",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "repository": "https://github.com/LedgerHW/app-bitcoin-new",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Lattice-Trade"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lattice-Trade/membrane-app-bitcoin-new.git"
+  },
   "license": "Apache-2.0",
   "keywords": [
     "Ledger",
