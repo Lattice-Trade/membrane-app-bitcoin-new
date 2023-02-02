@@ -1,6 +1,6 @@
 {
   "name": "@Lattice-Trade/membrane-app-bitcoin-new",
-  "version": "0.0.1-prueba21",
+  "version": "0.0.1-prueba22",
   "description": "Ledger Hardware Wallet Bitcoin Application Client",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
