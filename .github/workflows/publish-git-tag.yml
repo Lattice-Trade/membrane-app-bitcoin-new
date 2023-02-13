@@ -12,7 +12,7 @@ on:
 
 jobs: 
   create-tag:
-    uses: Lattice-Trade/membrane-github-template-actions/.github/workflows/gh-publish-release-sdk.v1.yml@feature/{LM-9718}-allow-set-workdir-in-release
+    uses: Lattice-Trade/membrane-github-template-actions/.github/workflows/gh-publish-release-sdk.v1.yml@main
     with:
       WORKING_DIR: bitcoin_client_js
     secrets: inherit
