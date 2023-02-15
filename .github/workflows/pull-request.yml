@@ -13,7 +13,7 @@ on:
 jobs: 
   pull-request:
     if: ${{ !startsWith(github.head_ref, 'release/') }}
-    uses: Lattice-Trade/membrane-github-template-actions/.github/workflows/typescript-pull-request.v1.yml@main
+    uses: Lattice-Trade/membrane-public-github-actions/.github/workflows/typescript-pull-request.v1.yml@main
     with:
       NODE_VERSION: 14
       HAS_UNIT_TEST: false
