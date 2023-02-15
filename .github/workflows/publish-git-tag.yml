@@ -12,7 +12,7 @@ on:
 
 jobs: 
   create-tag:
-    uses: Lattice-Trade/membrane-github-template-actions/.github/workflows/gh-publish-release-sdk.v1.yml@main
+    uses: Lattice-Trade/membrane-public-github-actions/.github/workflows/gh-publish-release-sdk.v1.yml@main
     with:
       WORKING_DIR: bitcoin_client_js
     secrets: inherit
