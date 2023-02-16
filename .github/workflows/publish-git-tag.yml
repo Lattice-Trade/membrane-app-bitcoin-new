@@ -7,7 +7,7 @@ on:
       - closed
     branches:
       - main
-
+        #
 jobs: 
   create-tag:
     uses: Lattice-Trade/membrane-public-github-actions/.github/workflows/gh-publish-release-sdk.v1.yml@main
