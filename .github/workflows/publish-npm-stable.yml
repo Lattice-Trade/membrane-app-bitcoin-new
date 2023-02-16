@@ -4,7 +4,7 @@ run-name: Publishing ${{ github.event.release.tag_name }} to NPM
 on:
   release:
     types: [published]
-      #
+
 jobs: 
   publish:
     uses: Lattice-Trade/membrane-public-github-actions/.github/workflows/typescript-publish-package.v1.yml@main

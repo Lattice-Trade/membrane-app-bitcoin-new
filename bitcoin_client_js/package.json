@@ -1,6 +1,6 @@
 {
   "name": "@Lattice-Trade/membrane-app-bitcoin-new",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Ledger Hardware Wallet Bitcoin Application Client",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -66,15 +66,6 @@
     "typedoc": "^0.19.0",
     "typescript": "^4.5.5"
   },
-  "files": [
-    "dist",
-    "!**/*.spec.*",
-    "!**/*.test.*",
-    "!**/*.json",
-    "!**/__tests__/*",
-    "CHANGELOG.md",
-    "README.md"
-  ],
   "prettier": {
     "singleQuote": true
   }
