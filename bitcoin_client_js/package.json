@@ -1,6 +1,6 @@
 {
   "name": "@Lattice-Trade/membrane-app-bitcoin-new",
-  "version": "0.0.2-prueba2",
+  "version": "0.0.3",
   "description": "Ledger Hardware Wallet Bitcoin Application Client",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -26,6 +26,7 @@
     "fix": "run-s fix:*",
     "fix:prettier": "prettier \"src/**/*.ts\" --write",
     "fix:lint": "eslint src --ext .ts --fix",
+    "lint": "eslint src --ext .ts",
     "test": "jest --detectOpenHandles --verbose",
     "doc": "run-s doc:html && open-cli build/docs/index.html",
     "doc:html": "typedoc src/ --exclude **/*.test.ts --target ES6 --mode file --out build/docs",
