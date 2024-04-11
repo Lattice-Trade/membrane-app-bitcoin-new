@@ -15,7 +15,7 @@ jobs:
     if: ${{ !startsWith(github.head_ref, 'release/') }}
     uses: Lattice-Trade/membrane-public-github-actions/.github/workflows/typescript-pull-request.v1.yml@main
     with:
-      NODE_VERSION: 14
+      NODE_VERSION: 18
       HAS_UNIT_TEST: false
       WORKING_DIR: bitcoin_client_js
     secrets: inherit
